@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>데이터분석</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <h1><a href="index.html">데이터분석</a></h1>
+
+<image src="map.png" width="300" alt="">
+
+<p>시퀀서를 통해 전자적으로 읽어진 한 라이브러리의 염기서열 정보를 read라고 부른다. 생성된 read 데이터는 시퀀서로부터 2진수 형태인 BCL 파일로 생성되며 이를 시퀀서 자체 시스템 또는 bcl2fastq 소프트웨어를 사용하여 fastq 파일 형태로 가공된다. <u>일반적인 유전체 원시데이터는 이 fastq파일을 뜻한다</u>. 각 fastq파일은 시퀀싱에 사용된 리드(read)의 ID 및 시퀀싱 순서 정보, 염기서열 정보, 시퀀싱 질을 나타내는 프레드 품질 점수(Phred Quality Score) 등으로 구성된다.</p>
+
+<br>
+<p>질적 정량기준을 통과한 데이터는 이후 유전체를 재조립하는 과정에 부품으로서 사용된다. 이미 제작되어 있는 참조 유전체(Reference Genome) 상에 read들을 퍼즐처럼 조합시키는 과정이 진행되며, 이를 <mark>Alignment 또는 <u>Mapping</U></mark>이라 한다. 학계 내 발표된 참조 유전체가 존재하지 않는 경우 read간의 연결을 통하여 유전체를 조합하는 방법이 있는데, 이는 de-novo sequencing이라 하며 주로 발굴된 고생물 시료 및 신생물종 연구에서 활용된다. 생성된 유전체는 이후 유전자의 위치, 유전 변이 확인 및 위험성 평가 등을 측정하는 Annotation 과정은 거친다.</p>
+<br>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/DnlqURAakyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</body>
+
+</html>
